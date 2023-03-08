@@ -17,7 +17,7 @@ Clone this repo:
 
 ```
 git clone https://github.com/yuhez/ONIX_XMPI_Droplet_Recon.git
-cd ONIX_XMPI_Droplet_Recon
+cd ONIX_XMPI_Recon
 ```
 To install the required python packages via Anaconda:
 
