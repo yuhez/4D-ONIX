@@ -1,5 +1,7 @@
-# Reconstruct algorithm for X-ray multi-projection imaging
-This repository contains the code used for reconstructing 3D movies of the droplets from the sparse views recorded by [X-ray multi-projection imaging (XMPI)](https://doi.org/10.1364/OPTICA.5.001521).
+# 4D-ONIX for reconstructing 3D movies from sparse X-ray projections via deep learning
+This repository contains the code used for 4D-ONIX, a deep learning method to reconstruct 3D movies of the droplets from the sparse views recorded by [X-ray multi-projection imaging (XMPI)](https://doi.org/10.1364/OPTICA.5.001521).  For more detailed information about ONIX training and performance, please refer to our [paper](https://arxiv.org/abs/2401.09508).
+
+
 It is based on [ONIX](https://github.com/pvilla/ONIX), a 3D multi-projection reconstruction approach that applied implicit neural representation to learn the mapping between the spatial coordinates and the complex refractive index.
 In this work, we added a new dimention time to the algorithm, and learn the mapping from 4D spatial-temporal coordinates to the refractive index.
 We reconstructed 3D movies of the droplets from two projections collected by XMPI.
@@ -49,4 +51,4 @@ For evaluation options, please check out:
 
 
 ## Acknowledgments
-Parts of the code were based on [GRAF](https://github.com/autonomousvision/graf) and [pixelNeRF](https://github.com/sxyu/pixel-nerf).
+Parts of the code were based on [GRAF](https://github.com/autonomousvision/graf) and [ONIX](https://github.com/pvilla/ONIX).
